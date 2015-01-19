@@ -1,0 +1,74 @@
+@media screen and (max-width: 800px) {
+	.game {
+		width: 30%;
+		margin: 5px;
+	}
+
+	.footer img {
+		width: 80%;
+	}
+
+	#menuUp {
+		width: 500px;
+		margin-left: -250px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.game {
+		width: 40%;
+		margin: 5px;
+	}
+
+	.menu2 ul li a, .menu2 ul li span {
+		font-size: 16px;
+	}
+
+	.footer {
+		padding-top: 10px;
+	}
+
+	.footer img {
+		width: 86%;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.list {
+		display: block;
+	}
+
+	#menuUp {
+		width: 260px;
+		margin-left: -130px;
+	}
+
+	.menuUp-left {
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.menuUp-right {
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.game {
+		width: 80%;
+		margin: 8px 2px;
+	}
+
+	.footer {
+		padding-top: 20px;
+	}
+
+	.footer img {
+		width: 96%;
+	}
+}

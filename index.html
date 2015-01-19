@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile NetGame</title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.glide.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			$(".list").click(function() {
+				$(".open-list").slideToggle("fast");
+				$(this).find("span").toggleClass("active-list"); return false;
+			});
+
+			$(".main-menu").click(function() {
+				$("#menuUp").slideToggle("fast");
+				$(this).toggleClass("active-main-menu"); return false;
+			});
+
+		});
+
+	</script>
+
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<div class="header">
+			<div class="logo">
+				<a href="#">
+					<img src="./img/logo.png">
+				</a>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li><a href="#">Регистрация</a></li>
+					<li><a href="#">Вход</a></li>
+					<li><a href="#">Он-лайн поддержка</a></li>
+				</ul>
+			</div>
+
+			<div class="list">
+				<ul>
+					<li><span>MENU</span></li>
+				</ul>
+			</div>
+
+			<div class="open-list">
+				<ul>
+					<li><a href="#">Регистрация</a></li>
+					<li><a href="#">Вход</a></li>
+					<li><a href="#">Он-лайн поддержка</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="content">
+
+			<div id="slider_bg">
+				<div class="slider">
+					<ul class="slides">
+						<li class="slide"><img src="./img/slider/768х180_20_bezdep.jpg"></li>
+						<li class="slide"><img src="./img/slider/768х180_3300_bonus.jpg"></li>
+					</ul>
+				</div>
+
+				<script type="text/javascript">
+					var glide = $('.slider').glide().data('api_glide');
+
+					$(window).on('keyup', function (key) {
+						if (key.keyCode === 13) {
+							glide.jump(3, console.log('Wooo!'));
+						};
+					});
+
+					$('.slider-arrow').on('click', function() {
+						console.log(glide.current());
+					});
+				</script>
+			</div>
+
+			<div class="menu2">
+				<ul class="ul-menu2">
+					<li><a href="#">СКАЧАТЬ</a></li>
+					<li><span class="main-menu">МЕНЮ</span></li>
+					<li><a href="#">КАССА</a></li>
+				</ul>
+
+
+
+				<div id="menuUp">
+					<div class="menuUp-left">
+						<ul>
+							<li><a href="">ИГРЫ</a></li>
+							<li><a href="">КАК НАЧАТЬ</a></li>
+							<li><a href="">БОНУСЫ</a></li>
+							<li><a href="">ПРОФИЛЬ</a></li>
+						</ul>
+					</div>
+
+					<div class="menuUp-right">
+						<ul>
+							<li><a href="">Статистика выплат</a></li>
+							<li><a href="">Статистика выплат</a></li>
+							<li><a href="">Лицензия</a></li>
+							<li><a href="">Положения и условия</a></li>
+							<li><a href="">Ответственная игра</a></li>
+							<li><a href="">Защита данных</a></li>
+						</ul>
+					</div>
+
+					<div class="clear">
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="games">
+				<div class="game">
+					<span class="game-title">Book of Ra Deluxe</span>
+					<img src="./img/games/i1.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Lord of the Ocean</span>
+					<img src="./img/games/i2.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Queen of Hearts Deluxe</span>
+					<img src="./img/games/i3.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Naughty ‘n’ Nice</span>
+					<img src="./img/games/i4.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Book of Ra Deluxe</span>
+					<img src="./img/games/i1.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Lord of the Ocean</span>
+					<img src="./img/games/i2.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Queen of Hearts Deluxe</span>
+					<img src="./img/games/i3.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Naughty ‘n’ Nice</span>
+					<img src="./img/games/i4.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Book of Ra Deluxe</span>
+					<img src="./img/games/i1.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Lord of the Ocean</span>
+					<img src="./img/games/i2.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Queen of Hearts Deluxe</span>
+					<img src="./img/games/i3.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+
+				<div class="game">
+					<span class="game-title">Naughty ‘n’ Nice</span>
+					<img src="./img/games/i4.png">
+
+					<a href="#" class="game-depos">ДЕПОЗИТ</a>
+					<a href="#" class="game-down">СКАЧАТЬ</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="footer-push"></div>
+	</div>
+
+	<div class="footer">
+		<img src="./img/footer-brands.png">
+	</div>
+</body>
+</html>
