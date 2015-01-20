@@ -48,7 +48,7 @@ ul, li {
 }
 
 .footer-push, .footer {
-    height: 70px;
+    	height: 70px;
 }
 
 
@@ -58,16 +58,16 @@ ul, li {
 .header {
 	height: 60px;
 	background: #0A362C;
-    background: -moz-linear-gradient(to top, #021A14, #0A392C);
-    background: -webkit-linear-gradient(to top, #021A14, #0A392C);
-    background: -o-linear-gradient(to top, #021A14, #0A392C);
-    background: -ms-linear-gradient(to top, #021A14, #0A392C);
-    background: linear-gradient(to top, #021A14, #0A392C);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+	background: -moz-linear-gradient(to top, #021A14, #0A392C);
+	background: -webkit-linear-gradient(to top, #021A14, #0A392C);
+	background: -o-linear-gradient(to top, #021A14, #0A392C);
+	background: -ms-linear-gradient(to top, #021A14, #0A392C);
+	background: linear-gradient(to top, #021A14, #0A392C);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
 }
 
 .logo {
@@ -188,10 +188,10 @@ ul, li {
 	 * responsible for slider animation in modern broswers
 	 */
 	-webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
-	   -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
-	    -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
-	     -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
-	        transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+	-moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+	-ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+	-o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+	transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
 }
 	
 .slide {
@@ -259,14 +259,14 @@ ul, li {
 
 .menu2 {
 	background: #0A362C;
-    background: -moz-linear-gradient(to top, #021A14, #0A392C);
-    background: -webkit-linear-gradient(to top, #021A14, #0A392C);
-    background: -o-linear-gradient(to top, #021A14, #0A392C);
-    background: -ms-linear-gradient(to top, #021A14, #0A392C);
-    background: linear-gradient(to top, #021A14, #0A392C);
-    height: 60px;
-    width: 100%;
-    position: relative;
+        background: -moz-linear-gradient(to top, #021A14, #0A392C);
+        background: -webkit-linear-gradient(to top, #021A14, #0A392C);
+        background: -o-linear-gradient(to top, #021A14, #0A392C);
+        background: -ms-linear-gradient(to top, #021A14, #0A392C);
+        background: linear-gradient(to top, #021A14, #0A392C);
+        height: 60px;
+        width: 100%;
+        position: relative;
 }
 
 .ul-menu2 {
@@ -289,7 +289,6 @@ ul, li {
 	background: -ms-linear-gradient(to top, #085332, #0b7647);
 	background: -o-linear-gradient(to top, #085332, #0b7647);
 	background: linear-gradient(to top, #085332, #0b7647);
-
 	color: #97ccac;
 	font-size: 22px;
 	text-shadow: 0 2px 0 #064026;
@@ -350,12 +349,10 @@ ul, li {
 	margin: 0 auto;
 	display: block;
 	text-align: center;
-
 	background: #efa629;
 	border: solid 1px #efa529;
 	text-shadow: 0px 2px 0px #f5ca78;
 	color: #462100 !important;
-
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -374,12 +371,10 @@ ul, li {
 	margin: 0 auto;
 	display: block;
 	text-align: center;
-
 	background: #d51818;
 	border: solid 1px #d51818;
 	text-shadow: 0px 2px 0px #8d1212;
 	color: #fafafa;
-
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -404,12 +399,12 @@ ul, li {
 	max-width: 1024px;
 	margin: 0 auto;
 	text-align: center;
-    background: -moz-linear-gradient(to top, #021A14, #0A392C);
-    background: -webkit-linear-gradient(to top, #021A14, #0A392C);
-    background: -o-linear-gradient(to top, #021A14, #0A392C);
-    background: -ms-linear-gradient(to top, #021A14, #0A392C);
-    background: linear-gradient(to top, #021A14, #0A392C);
-    padding-top: 6px;
+        background: -moz-linear-gradient(to top, #021A14, #0A392C);
+        background: -webkit-linear-gradient(to top, #021A14, #0A392C);
+        background: -o-linear-gradient(to top, #021A14, #0A392C);
+        background: -ms-linear-gradient(to top, #021A14, #0A392C);
+        background: linear-gradient(to top, #021A14, #0A392C);
+        padding-top: 6px;
 }
 
 .footer img {
@@ -471,7 +466,6 @@ ul, li {
 	top: 60px;
 	left: 50%;
 	margin-left: -310px;
-
 	z-index: 100;
 	-webkit-border-bottom-right-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
